@@ -1,8 +1,9 @@
-html{
-    background-image:url(./assets/clouds-49520_1280.jpg);
-    background-repeat: none;
-    background-size: 100%;
+body {
+    background-image: url(./assets/clouds-49520_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +20,7 @@ html{
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
-    opacity:8;
+    opacity: 8;
 }
 
 .search {
@@ -109,4 +110,25 @@ html{
     font-size: 14x;
     margin-top: 10px;
     display: none;
+}
+
+@media (max-width:768px) {
+    body {
+        background-size: auto;
+
+    }
+
+    .search input[type="text"] {
+        width: 100%;
+    }
+
+    .weather-icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .details {
+        flex-direction: column;
+        margin-top: 10px;
+    }
 }
