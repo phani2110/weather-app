@@ -17,10 +17,6 @@ Weather App is a simple web application that allows users to check the current w
 - **CSS:** Styling language used for designing the app layout and appearance.
 - **JavaScript:** Programming language for implementing dynamic behavior and fetching weather data from APIs.
 
-## Preview
-
-![Weather App Preview](link_to_image)
-
 ## Usage
 
 1. **Input City Name:** Enter the name of the city you want to check the weather for in the input field.
@@ -29,28 +25,16 @@ Weather App is a simple web application that allows users to check the current w
 
 ## Installation
 
-1. Clone the repository: `git clone <repository-url>`
+1. Clone the repository: `git clone <https://github.com/phani2110/weather-app>`
 2. Open `index.html` in your web browser.
 
 ## API Usage
 
 This app uses a weather API to fetch weather data. Make sure to replace `'YOUR_API_KEY'` in the JavaScript code with your actual API key.
 
-```javascript
-const apiKey = 'YOUR_API_KEY';
-const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
-```
-
-You can obtain an API key by signing up on the [OpenWeatherMap](https://openweathermap.org/api) website.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for bugs or feature requests.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
-
-Feel free to enhance and modify the README according to your specific app features and design.
